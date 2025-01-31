@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.fondo {/*para el fondo de atras con degradado*/
+    background-image: url("fondo.jpg");
+    background-size: 100%;
+    display: flex;
+    height: 650px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor { /*separado de izquierdad el contenedor*/
+    display: flex;
+    width: 400px;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgba(255,255,255,0.85);
+}
+.parte1 {
+    width: 350px;
+    height: 177px;
+    
+}
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+    text-align: center;
+}
+.LOGO {
+    width: 150px;
+    height: 150px;
+}
+.nombre-sistema {
+    color: #ff0000;
+}
+
+.parte2 {
+    width: 350px;
+    height: 130px;
+    background-color:  rgba(255,255,255,0.85);
+}
+.recuadro{
+    background-color:#01925b;
+    text-align: center;
+    color:white
+}
+.campos{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.boton{
+    text-align: center;
+}
+
+.hr_style {
+    margin-bottom: 5px;
+    border-top: 1px dotted #8c8b8b;
+}
