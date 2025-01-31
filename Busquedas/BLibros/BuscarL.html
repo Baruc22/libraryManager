@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="styleBuscarL.css"/>
+	<meta charset="utf-8">
+	<title>BUSCAR LIBROS</title>	 
+</head>
+<body>
+	<div class="parteA">
+		<div class="buscador">
+			<form action="buscarLphp.php">
+				<p>BUSCAR: <input type="text" name="consulta" size="60" class="texto"/></p>
+				<input class="boton" type="image" src="../imagenes/botBuscar.png">
+
+				<div class="opciones">
+					<div class="opcion1">
+						<input type="radio" id="opc1" name="choice" value="codigo" checked />
+						<label for="opc1">Código</label>
+					</div>
+					
+					<div class="opcion">
+						<input type="radio" id="opc2" name="choice" value="nombre"/>
+						<label for="opc2">Nombre</label>
+					</div>					
+					
+					<div class="opcion">
+						<input type="radio" id="opc3" name="choice" value="autor"/>
+						<label for="opc3">Autor</label>
+					</div>	
+					
+					<div class="opcion">
+						<input type="radio" id="opc4" name="choice" value="seccion"/>
+						<label for="opc4">Sección</label>
+					</div>
+					<div class="opcion">
+						<input type="radio" id="opc5" name="choice" value="libre"/>
+						<label for="opc5">Libre</label>
+					</div>
+					<div class="opcion">
+						<input type="radio" id="opc6" name="choice" value="prestado"/>
+						<label for="opc6">Prestado</label>
+					</div>						
+				</div>				
+			</form>
+		</div>		
+	</div>
+	<div class="parteB">
+		<div class="resultados"></div>
+	</div>
+	<div class="cuadroboton">
+		<a href="../../principal/principal.php" class="botonhome"></a>
+	</div>
+	
+</html>

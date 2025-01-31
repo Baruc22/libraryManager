@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="styleBuscarLec.css"/>
+	<meta charset="utf-8">
+	<title>BUSCAR LECTORES</title>	 
+</head>
+<body>
+	<div class="parteA">
+		<div class="buscador">
+			<form action="BuscarLecphp.php">
+				<p>BUSCAR: <input type="text" name="consulta" size="60" class="texto"/></p>
+				<input class="boton" type="image" src="../imagenes/botBuscar.png">
+
+				<div class="opciones">
+					<div class="opcion1">
+						<input type="radio" id="opc1" name="choice" value="codigo" checked />
+						<label for="opc1">Código</label>
+					</div>
+					
+					<div class="opcion">
+						<input type="radio" id="opc2" name="choice" value="nombre"/>
+						<label for="opc2">Nombre</label>
+					</div>					
+					
+					<div class="opcion">
+						<input type="radio" id="opc3" name="choice" value="curp"/>
+						<label for="opc3">CURP</label>
+					</div>	
+					
+					<div class="opcion">
+						<input type="radio" id="opc4" name="choice" value="telefono"/>
+						<label for="opc4">Teléfono</label>
+					</div>					
+				</div>				
+			</form>
+		</div>		
+	</div>
+	<div class="parteB">
+		<div class="resultados"></div>
+	</div>
+	<div class="cuadroboton">
+		<a href="../../principal/principal.php" class="botonhome"></a>
+	</div>
+	
+</html>

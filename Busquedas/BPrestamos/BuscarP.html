@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="styleBuscarP.css"/>
+	<meta charset="utf-8">
+	<title>BUSCAR PRESTAMOS</title>	 
+</head>
+<body>
+	<div class="parteA">
+		<div class="buscador">
+			<form action="buscarPphp.php">
+				<p>BUSCAR: <input type="text" name="consulta" size="60" class="texto"/></p>
+				<input class="boton" type="image" src="../imagenes/botBuscar.png">
+				<p><input class="botonH" type="submit" value="Historial" name="consulta"></p>
+				<div class="opciones">
+					<div class="opcion1">
+						<input type="radio" id="opc1" name="choice" value="usuario" checked />
+						<label for="opc1">Nombre del lector</label>
+					</div>
+					
+					<div class="opcion">
+						<input type="radio" id="opc2" name="choice" value="libro"/>
+						<label for="opc2">Nombre del libro</label>
+					</div>
+					<div class="opcion">
+						<input type="radio" id="opc3" name="choice" value="devolver"/>
+						<label for="opc3">Por devolver</label>
+					</div>										
+				</div>				
+			</form>
+		</div>		
+	</div>
+	<div class="parteB">
+		<div class="resultados"></div>
+	</div>
+	<div class="cuadroboton">
+		<a href="../../principal/principal.php" class="botonhome"></a>
+	</div>
+	
+</html>
